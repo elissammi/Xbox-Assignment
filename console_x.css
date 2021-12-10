@@ -1,0 +1,890 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+body {
+  /*make sure the resolution is suitable */
+  min-width: 1200px;
+  min-height: 800px;
+  max-width: 1980px;
+  max-height: 1080px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+  .fade-in-text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 40%;
+    text-align: center;
+    color: white;
+    animation-name: fadeIn;
+    animation-duration: 8s;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+
+  .fade-in-text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 40%;
+    text-align: center;
+    color: white;
+    animation-name: fadeIn;
+    animation-duration: 8s;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    80% {opacity: 0;}
+    90% {opacity: 0.80;}
+    100% {opacity:1;}
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 0px;
+    background-color: rgb(245, 241, 241);
+  }
+  
+  .grid-container > div {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    object-fit: cover;
+  }
+
+  /* [1] The container */
+.img-hover-zoom { /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+
+  .top-middle{
+      padding-bottom: 2100px;
+      background-color:rgb(0, 0, 0)
+  }
+
+  .pic-1{
+      position: absolute;
+      top: 1500px;
+      left: 25%;
+  }
+
+  .pic-2{
+        position: absolute;
+        top: 1700px;
+        left: 15%;
+  }
+
+  .top-middle-text1{
+    position: absolute;
+    top: 2000px;
+    left: 32%;
+    width: 40%;
+    color: white;
+  }
+  .pic-3{
+    position: absolute;
+    top: 300px;
+    left: -45%;
+}
+
+.top-middle-text3{
+    position: absolute;
+    top: 1100px;
+    left: 5%;
+    width: 20%;
+    color: white;
+}
+.top-middle-text4{
+    position: absolute;
+    top: 1120px;
+    left: 25%;
+    width: 80%;
+    color: white;
+}
+
+.middle-1{
+    background-color: grey;
+}
+.middle-info{
+    position: absolute;
+    top: 3310px;
+    left: 0%;
+    right: 0%;
+    width: 59.7%;
+    padding-left: 400px;
+    padding-right: 361px;
+    color: rgb(240, 227, 227);
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    
+}
+h1.middle-info{
+    border-style: inset;
+}
+
+.info-3{
+  position: relative;
+  top: 2510px;
+
+}
+.title-4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  width: 98%;
+  transition: max-height 0.3s ease-out;
+  background-color: #f1f1f1;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+.middle-2{
+  padding-top: 10px;
+  padding-right: 0%;
+  padding-left: 0%;
+  padding-bottom: 2000px;
+}
+
+.showcase-1{
+  position: absolute;
+  left: 15%;
+  padding-top: 10%;
+  padding-right: 0%;
+  padding-left: 0%;
+  top: 4100px;
+}
+.showcase-2{
+  position: absolute;
+  left: 51.5%;
+  top: 4050px;
+  padding-top: 10%;
+}
+.showcase-3{
+  position: absolute;
+  left: 15%;
+  top: 4920px;
+  padding-top: 10%;
+}
+.showcase-4{
+  position: absolute;
+  left: 51.5%;
+  top: 4870px;
+  padding-top: 10%;
+}
+
+.middle-2-info-1{
+  position: absolute;
+  top: 4880px;
+  left: 18%;
+  color: white;
+}
+.middle-2-info-2{
+  position: absolute;
+  top: 4820px;
+  left: 53.5%;
+  color: white;
+}
+.middle-2-info-3{
+  position: absolute;
+  top: 5620px;
+  left: 53.5%;
+  color: white;
+}
+.middle-2-info-1-1{
+  font-size: 30px;
+}
+.middle-2-info-1-2{
+  font-size: 20px;
+  width: 80%;
+}
+.middle-2-info-1-3{
+  font-size: 20px;
+  width: 50%;
+}
+
+.quotes{
+  position: absolute;
+  top: 5950px;
+  left: 16%;
+  font-size: 50px;
+  color: white;
+}
+
+.sidekick:before, .sidekick:after {
+  font-family: Calibri;
+    color: #039be5;
+    font-size: 34px;
+}
+.sidekick:before {content: '\201e'}
+.sidekick:after {content: '\201c';}
+.sidekick cite {font-size: 50%; text-align:center; top:50%}
+.sidekick cite:before {content: ' \2015 '}
+
+
+
+.photo-consol{
+  position: absolute;
+  left: 50%;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: absolute;
+  left: 13%;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: 1%;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  left: 620px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  background-color: #7ec435;
+  padding: 2px 45px;
+  position: relative;
+  left: -10%;
+  width: 100%;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  position: relative;
+  float: left;
+  width: 23.3%;
+  padding-right: 0%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.text-center {
+	text-align: center;
+    width: 50%;
+    position: relative;
+    left: 8%;
+}
+
+.text-center1 {
+	text-align: center;
+    width: 50%;
+    position: relative;
+    left: 30%;
+    top: -490px;
+}
+
+.pricing-box-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+    color: white;
+}
+
+.pricing-box {
+	background-color: #181717;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+.pricing-box h5 {
+	text-transform: uppercase;
+  font-size: 25px;
+}
+
+.price {
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.price sub, .price sup {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.features-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.features-list li {
+	font-weight: 100;
+	padding: 12px 0;
+	font-weight: 100;
+}
+
+.features-list li:not(:last-of-type) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.button-1 a{
+  color: #7ec435;
+  text-decoration: none;
+}
+.button-2 a{
+  color: #7ec435;
+  text-decoration: none;
+}
+button1, button::after {
+  width: 200px;
+  height: 40px;
+  font-size: 17px;
+  text-align: center;
+  background: linear-gradient(45deg, transparent 5%, #000000 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 44px;
+  outline: transparent;
+  position: absolute;
+  top: 340px;
+  left: 103px;
+}
+
+button1::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'SELECT A RETAILER';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #6a04e6 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+button1:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+button2, button::after {
+  width: 200px;
+  height: 40px;
+  font-size: 17px;
+  text-align: center;
+  background: linear-gradient(45deg, transparent 5%, #000000 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 44px;
+  outline: transparent;
+  position: absolute;
+  top: 365px;
+  left: 105px;
+}
+
+button2::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'SELECT A RETAILER';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #6a04e6 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+button2:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+.title-5 {
+    color: white;
+}
+
+  @keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .fade-in-text2 {
+      position: absolute;
+      top: 650px;
+      left: 0%;
+      width: 50%;
+      font-size: 25px;
+    }
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .pic-1 {
+      position: absolute;
+      top: 950px;
+      left: 400px;
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .pic-2 {
+      position: absolute;
+      top: 1100px;
+      left: 330px;
+      width: 25%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .top-middle-text1 {
+      position: absolute;
+      top: 1300px;
+      left: 540px;
+      width: 35%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .pic-3 {
+      position: absolute;
+      top: 220px;
+      left: -200px;
+      width: 120%;
+    }
+  }
+
+  
+  @media screen and (max-width: 1200px) {
+    .top-middle-text3 {
+      position: absolute;
+      top: 590px;
+      left: -150px;
+      width: 25%;
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .top-middle-text4 {
+      position: absolute;
+      top: 610px;
+      left: 0px;
+      width: 90%;
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .middle-info {
+      position: absolute;
+      top: 2100px;
+      left: 0px;
+      width: 36%;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .grid-container {
+      position: absolute;
+      top: 2270px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 0px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .img-hover-zoom {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .halo-infi {
+      height: 334px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .far-cry {
+      height: 334px;
+    }
+  }
+
+  
+  @media screen and (max-width: 1200px) {
+    .showcase-1 {
+      position: absolute;
+      top: 2550px;
+      left: 230px;
+      width: 30%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .showcase-2 {
+      position: absolute;
+      top: 2520px;
+      left: 610px;
+      width: 30%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .showcase-3 {
+      position: absolute;
+      top: 3000px;
+      left: 230px;
+    }
+  }
+
+  
+  @media screen and (max-width: 1200px) {
+    .video-4 {
+      width: 53.5%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .showcase-4 {
+      position: absolute;
+      top: 2970px;
+      left: 610px;
+      width: 30%;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-1 {
+      position: absolute;
+      top: 2940px;
+      left: 250px;
+      width: 40%;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-1-1 {
+      font-size: 20px;
+      position: absolute;
+      top: 10px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-1-2 {
+      font-size: 15px;
+      position: absolute;
+      top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-2 {
+      position: absolute;
+      top: 2900px;
+      left: 630px;
+      width: 35%;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-2-1 {
+      font-size: 20px;
+      position: absolute;
+      top: 10px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-2-2 {
+      font-size: 15px;
+      position: absolute;
+      top: 40px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-3 {
+      position: absolute;
+      top: 3350px;
+      left: 630px;
+      width: 55%;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-1-1 {
+      font-size: 20px;
+      position: absolute;
+      top: 10px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .middle-2-info-1-3 {
+      font-size: 15px;
+      position: absolute;
+      top: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .sidekick {
+      font-size: 30px;
+      position: absolute;
+      top: -2380px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .quotes {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .middle-3 {
+      position: relative;
+      top: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container {
+      position: relative;
+      top: 400px;
+      left: 3%;
+      width: 110%;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .next {
+      position: absolute;
+      left: 460px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .pricing-box-container {
+      width: 10%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .text-center {
+      position: relative;
+      top: -260px;
+      left: 650px;
+      width: 10%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .text-center1 {
+      position: relative;
+      top: -700px;
+      left: 975px;
+      width: 10%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .button-1 {
+      position: absolute;
+      top: 90px;
+      left: -15%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .button-2 {
+      position: absolute;
+      top: 5px;
+      left: -15%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .btm-2 {
+      position: relative;
+      top: 0px;
+      left: 0%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .middle-2 {
+      padding-bottom: 1000px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .top-middle {
+      padding-bottom: 1500px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .title-5 {
+      position: relative;
+      left:1%
+    }
+  }
