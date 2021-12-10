@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading..</title>
+  <link rel="stylesheet" href="loading.css">
+</head>
+<body>
+
+  <div class="process">
+    <h6 id="status">Processing...</h6>
+  </div>
+  
+  <div class="container">
+    <div class="point"></div>
+    <div class="point"></div>
+    <div class="point"></div>
+    <div class="point"></div>
+    <div class="point"></div>
+  </div>
+
+  
+
+  <script>
+    function redirect(){
+      alert("Thanks for purchasing, see you again!")
+      localStorage.clear();
+      document.location.href = "index.html";
+    }
+
+    function message(){
+      document.getElementById("status").innerHTML = "Success!";
+      setTimeout("redirect()",1000)
+    }
+    
+
+    setTimeout("message()",5000) 
+    
+  </script>
+</body>
+</html>

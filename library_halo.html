@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo Infinite</title>
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" href="games.css">
+    <link rel="stylesheet" href="nav_footer.css">
+    <script src="games.js"></script>
+</head>
+<body>
+<div id="lib_halo">
+    <nav>
+        <div class="nav_bar">
+            <div id="fixed_nav">
+                <div id="nav_logo">
+                    <a href="index.html"><img src="image/home_icon.png" alt="Xbox Logo"></a>
+                </div>
+                <div id="nav_dropdown_items">
+                    <div class="dropdown">
+                        <button class="drop_button">Browse</button>
+                        <div class="dropdown_list">
+                            <a href="games.html">Games</a>
+                            <a href="games_pass.html">Games Pass</a>
+                            <a href="console.html">Consoles</a>
+                            <a href="accessories.html">Accessories</a>
+                            <a href="gear_shop.html">Gear Shop</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="drop_button">Community</button>
+                        <div class="dropdown_list">
+                            <a href="community.html">Xbox Community</a>
+                            <a href="developers.html">Our Developers</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="drop_button">Support</button>
+                        <div class="dropdown_list">
+                            <a href="contact_us.html">Contact Us</a>
+                            <a href="about_us.html">About Us</a>
+                            <a href="support.html">Support Center</a>
+                            <a href="feedback.html">Feedback Form</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="drop_button">My Xbox</button>
+                        <div class="dropdown_list">
+                            <a href="profile.html">Profile</a>
+                            <a href="library.html">Library</a>
+                        </div>
+                    </div>
+                    <div id="cart_nav">
+                        <a href="cart.html"><img class="icon_size" src="image/cart.png" alt="Cart Icon"><span></span></a>
+                    </div>
+                    <div>
+                        <a href="profile.html"><img class="icon_size" src="image/profile_icon.png" alt="Profile Icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            /*Nav bar jscript*/
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("nav");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+    </nav>
+    <main>
+        <div class="blank_div"></div>
+        <table class="lib_games">
+            <tr>
+                <th>
+                    <img src="image/haloinfinite_logo.jpg" alt="halo" width="280px" height="380px" style="box-shadow: 0 0  10px black;">
+                </th>
+                <th>
+                    <h1 style="color: white; font-size: 65px;">Halo Infinite</h1>
+                    <table class="lib_info">
+                        <tr>
+                            <th class="lib_th">Time Played</th>
+                            <th class="lib_th">Last Played</th>
+                            <th class="lib_th">Release Date</th>
+                        </tr>
+                        <tr>
+                            <th class="lib_th">14.0 Hours</th>
+                            <th class="lib_th">17 Nov</th>
+                            <th class="lib_th">08 Dec 2021</th>
+                        </tr>
+                    </table>
+                    <button class="lib_play" type="button" onclick="toShow()">PLAY</button>
+                </th>
+            </tr>
+        </table> 
+        <table>
+            <tr>
+                <th><iframe width="1000" height="515" style="margin-left: 150px;"id="ytvideo" src="https://www.youtube.com/embed/3LI28UuWKVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+                <th style="color: white; text-align: justify; padding-left: 150px;">
+                    <p id="lib_descrip">
+                        The next era of Halo begins! To celebrate the 20th Anniversary of the franchise, Halo Infinite's multiplayer beta is available now and free to play on Xbox and PC. Begin your personal Spartan Journey today with Season 1, "Heroes of Reach", and stay tuned for upcoming, limited-time in-game events and exclusive rewards. Halo Infinite's campaign is available for pre-order now and launches December 8.
+                        <br><br>
+                        Campaign: <br>
+                        When all hope is lost and humanity's fate hangs in the balance, the Master Chief is ready to confront the most ruthless foe he's ever faced. Step inside the armor of humanity's greatest hero to experience an epic adventure and explore the massive scale of the Halo ring. To experience the campaign, purchase Halo Infinite (Campaign).
+                        <br><br>
+                        Multiplayer: <br>
+                        Halo's celebrated multiplayer returns, reimagined and free-to-play! Seasonal updates evolve the experience over time with unique events, new modes and maps, and community-focused content.
+                        <br><br>
+                        Arena: <br>
+                        Halo returns to its roots with fair starts, on-map equipment, and 4-player squads to offer the ultimate arena-shooter experience.
+                        <br><br>
+                        Big Team Battle: <br>
+                        Create endless combat possibilities by mixing and matching a rich variety of weapons, vehicles and equipment to experience big-team mayhem and fun that embraces the full spectrum of the Halo sandbox.
+                        <br><br>
+                        Spartan Customization: <br>
+                        Become a Spartan that's uniquely your own with a rich and deep player customization system. Earn and discover new cosmetic items simply by playing campaign or multiplayer. Or to obtain even more cosmetic rewards, purchase a Battle Pass that never expires and unlock new content at your own pace.
+                    </p>    
+                </th>
+                <th class="lib_blank"></th>
+            </tr>  
+
+        </table>
+        <footer>
+            <div>
+                <div id="follow_container">
+                    <ul>
+                        <li>Follow Xbox</li>
+                        <li><a target="_blank" href="https://www.instagram.com/xbox/"><img class="icon_size" src="image/instagram.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://twitter.com/xbox"><img class="icon_size" src="image/twitter.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/xbox"><img class="icon_size" src="image/facebook.png" alt=""></a></li>
+                    </ul>
+                    <hr class="green_hr">
+                </div>
+                <div id="flex_footer_container">
+                    <div>
+                        <h4>Browse</h4> <hr>
+                        <p><a href="games.html">Xbox Games</a></p>
+                        <p><a href="consoles.html">Xbox Consoles</a></p>
+                        <p><a href="game_pass.html">Xbox Game Pass</a></p>
+                        <p><a href="accessories.html">Xbox Accessories</a></p>
+                        <p><a href="gear_shop.html">Xbox Gear Shop</a></p>
+                    </div>
+                    <div>
+                        <h4>Resources</h4> <hr>
+                        <p><a href="community.html">Xbox Community</a></p>
+                        <p><a href="developers.html">Our Developers</a></p>
+                    </div>
+                    <div>
+                        <h4>Reach Us</h4> <hr>
+                        <p><a href="contact_us.html">Contact Us</a></p>
+                        <p><a href="about_us.html">About Us</a></p>
+                        <p><a href="support.html">Support Center (FAQ)</a></p>
+                        <p><a href="feedback.html">Feedback Form</a></p>
+                    </div>
+                    <div>
+                        <h4>Brought to you by</h4> <hr>
+                        <p>RDS1 Group 2 Students in collab with</p>
+                        <p>the Xbox Community</p>
+                        <a href="index.html"><img src="image/home_icon.png" alt="TARUC"></a>
+                    </div>
+                </div>
+                <div id="copyright_footer">
+                    <p>&copy; 2021 Web Dev BAIT1023 Group 2</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</div> 
+<script src="products.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>
