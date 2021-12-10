@@ -1,0 +1,261 @@
+/* PAYMENT CSS */
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+main {
+  background-image: url(image/body_bg.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: contain;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.delivery-address {
+  grid-row: span 2 / auto;
+  top: 60px;
+  background-color: #fff;
+  width: 450px;
+  padding: 25px;
+  margin: 100px 10px 80px 150px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
+    0 8px 16px rgba(0, 0, 0, 0.11);
+}
+
+.card {
+  position: relative;
+  margin-top: 150px;
+  color: #ffffff;
+  font-size: large;
+  background-image: url(image/card.png);
+  background-size: 130%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 260px;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+}
+
+.delivery-address h1 {
+  background-color: #fcfcfc;
+  color: #77bb2f;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 8px;
+  text-align: center;
+  border: 1px;
+}
+
+.input-details {
+  margin-bottom: 8px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.input-box {
+  width: 100%;
+  margin-right: 5px;
+  position: relative;
+}
+
+.input-box > input {
+  padding: 14px 10px 14px 50px;
+  width: 80%;
+  background-color: #fcfcfc;
+  border: 1px solid #0003;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border-radius: 3px;
+  color: #333;
+}
+
+select {
+  padding: 14px 10px 14px 50px;
+  width: 94%;
+  background-color: #fcfcfc;
+  border: 1px solid #0003;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border-radius: 3px;
+  color: #333;
+}
+
+.input-box input:focus,
+select:focus {
+  box-shadow: 0 0 2px 1px #7ec435;
+  border: 1px solid #7ec435;
+}
+
+.input-details1 {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.input-details2 {
+  position: absolute;
+  top: 180px;
+  width: 130px;
+  height: 50px;
+}
+
+.input-details3 {
+  position: absolute;
+  top: 180px;
+  right: 20px;
+  width: 100px;
+}
+
+.cvc1 {
+  border-bottom: 3px solid #e9f19d;
+  padding-bottom: 3px;
+}
+
+#cvc2 {
+  outline: none;
+  border: none;
+  width: 80%;
+  background-color: transparent;
+}
+
+.expMY {
+  position: absolute;
+  padding-left: 4px;
+  width: 150px;
+  margin-bottom: 30px;
+  bottom: 1%;
+}
+
+.month2,
+.year2 {
+  width: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #e9f19d;
+  background-color: transparent;
+}
+
+.month1 {
+  position: absolute;
+  top: 20px;
+  left: 3px;
+}
+
+.year1 {
+  position: absolute;
+  top: 20px;
+  right: 3px;
+}
+
+.longInputA {
+  border-bottom: 3px solid #e9f19d;
+  padding-bottom: 3px;
+}
+
+.longInputB {
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+
+.card input {
+  color: white;
+  font-size: 1.5em;
+}
+
+p#slash {
+  position: absolute;
+  left: 60px;
+  margin-top: 40px;
+  padding: 0;
+  font-size: 15pt;
+}
+
+.pay2 {
+  width: 150px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 120%;
+  margin: 0;
+}
+
+.basketTotalTitle {
+  margin-left: 20px;
+  width: 19%;
+  font-size: 15pt;
+  color: #7ec435;
+}
+
+.basketTotal {
+  margin-left: 90px;
+  width: 50%;
+  font-size: 15pt;
+  display: flex;
+  align-items: center;
+}
+
+.placeOrder {
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 55px;
+}
+
+.placeOrder > input {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  width: 90%;
+  padding: 25px;
+  transform: translateY(-50%);
+  border: 2px solid #7ec435;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.input-details3 > label {
+  margin-left: 10px;
+}
+
+.summary {
+  width: 90%;
+}
+
+.grid3 {
+  margin-left: 80px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  width: 300px;
+  padding: 20px 40px 40px 40px;
+  height: 170px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
+    0 8px 16px rgba(0, 0, 0, 0.11);
+}

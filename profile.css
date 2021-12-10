@@ -1,0 +1,730 @@
+
+
+/* profile.html */
+#profile_background{
+	  background-size: auto;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    background-image: url(image/profile_background.png);
+}
+.game_profile{
+    background: linear-gradient(to bottom, #003366 0%, #99ffcc 100%);
+    padding-top: 110px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.profile_descrip{
+  display: inline-block;
+  padding-left: 50px;
+
+}
+.profile_descrip > h1 {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 60px;
+
+}
+
+.profile_descrip > h2 {
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.profile_descrip > h3 {
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+
+.achievement_profile{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  margin-left: 150px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+
+}
+
+.friends_profile{
+  background-color: black;
+  float: right;
+  padding-right: 27px;
+  padding-left: 27px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 150px;
+  color: white;
+}
+
+
+.recent_activity {
+  background-color: rgb(56, 54, 54);
+  font-weight: bold;
+  margin-top: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.recent_activity > span{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+  font-family:'Times New Roman', Times, serif;
+}
+
+.game_achivement {
+  background-color: rgb(56, 54, 54) ;
+  margin-top: 20px;
+ 
+  margin-left: 20px;
+  padding-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 14px;
+  border-radius:10px ;
+}
+.game_achivement > img {
+  float: left;
+  margin-left: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 10px;
+}
+
+.game_achivement > h2{
+  display: block;
+}
+
+.game_achivement > p{
+  text-align: right;
+  margin: 5px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.bar {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.progression_bar {
+  background-color: rgb(18, 26, 37);
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.progression_bar > p{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.progression_bar > img{
+  float:right;
+  margin-top: -40.5px;
+  margin-right: 15px ;
+ 
+ 
+}
+
+
+.achievemnt {
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress {
+  text-align: right;
+  width: 20%; background-color: #2196F3;
+  border-radius: 10px;
+}
+.bar_2 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_2 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_2 {
+  text-align: right;
+  width: 30%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.bar_3 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_3 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_3 {
+  text-align: right;
+  width: 40%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); 
+  background-position: 10px 12px; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid ;
+  margin-top: 5px; 
+  background-color: rgb(56, 54, 54); 
+  padding-bottom: 20px;
+  padding-top: 20px; 
+  padding-left: 10px;
+  text-decoration: none; 
+  font-size: 18px; 
+  color: white; 
+
+  display: block; 
+  margin-bottom: 17.5px;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; 
+}
+
+#myUL li img {
+  display: inline-block;
+  
+}
+
+#myUL li p {
+  float: right;
+  padding-right: 45px;
+}
+
+.status-circle1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey;
+  border: 2px solid white;
+  float: left ;
+}
+.status-circle2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color:green;
+  border: 2px solid white;
+  float: left  ;
+}
+
+.game_profile_1{
+  background: linear-gradient(to bottom, #00ff00 0%, #ccff33 100%);
+  padding-top: 110px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.game_profile_2{
+  background: linear-gradient(to bottom, #000066 0%, #003366 100%);
+  padding-top: 110px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.game_profile_3{
+  background: linear-gradient(to bottom, #660066 0%, #666699 100%);
+  padding-top: 110px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.game_profile_4{
+  background: linear-gradient(to bottom, #993333 0%, #cc0000 100%);
+  padding-top: 110px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.game_profile_5{
+  background: linear-gradient(to bottom, #660066 0%, #ff00ff 100%);
+  padding-top: 110px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.game_profile_6{
+  background: linear-gradient(to bottom, #003300 0%, #009900 100%);
+  padding-top: 110px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.barf1 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemntf1 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progressf1 {
+  text-align: right;
+  width: 50%; background-color: #2196F3;
+  border-radius: 10px;
+}
+.bar_2f1 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_2f1 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_2f1 {
+  text-align: right;
+  width: 75%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.bar_3f1 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_3f1 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_3f1 {
+  text-align: right;
+  width: 25%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.barf2 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemntf2 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progressf2 {
+  text-align: right;
+  width: 75%; background-color: #2196F3;
+  border-radius: 10px;
+}
+.bar_2f2 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_2f2 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_2f2 {
+  text-align: right;
+  width: 50%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.bar_3f2 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_3f2 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_3f2 {
+  text-align: right;
+  width: 35%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.barf3 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemntf3 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progressf3 {
+  text-align: right;
+  width: 60%; background-color: #2196F3;
+  border-radius: 10px;
+}
+.bar_2f3 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_2f3 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_2f3 {
+  text-align: right;
+  width: 30%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.bar_3f3 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_3f3 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_3f3 {
+  text-align: right;
+  width: 25%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.barf4 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemntf4 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progressf4 {
+  text-align: right;
+  width: 50%; background-color: #2196F3;
+  border-radius: 10px;
+}
+.bar_2f4 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_2f4 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_2f4 {
+  text-align: right;
+  width: 40%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.bar_3f4 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_3f4 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_3f4 {
+  text-align: right;
+  width: 35%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.barf5 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemntf5 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progressf5 {
+  text-align: right;
+  width: 70%; background-color: #2196F3;
+  border-radius: 10px;
+}
+.bar_2f5 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_2f5 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_2f5 {
+  text-align: right;
+  width: 67%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.bar_3f5 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_3f5 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_3f5 {
+  text-align: right;
+  width: 45%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.barf6 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemntf6 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progressf6 {
+  text-align: right;
+  width: 60%; background-color: #2196F3;
+  border-radius: 10px;
+}
+.bar_2f6 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_2f6 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_2f6 {
+  text-align: right;
+  width: 15%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.bar_3f6 {
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: block;
+  margin-left: 250px;
+  margin-top: -38px;
+}
+
+.achievemnt_3f6 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.progress_3f6 {
+  text-align: right;
+  width: 20%; background-color: #2196F3;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 5000px) {
+  .achievement_profile {
+    width:55%;
+  }
+  .friends_profile {
+    width: 19%;
+  }
+
+}

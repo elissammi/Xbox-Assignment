@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Xbox Official Website</title>
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" href="nav_footer.css">
+    <link rel="stylesheet" href="productdetails.css">
+    <link rel="stylesheet" href="popout.css"> 
+      
+</head>
+<body>
+    <nav>
+        <div class="nav_bar">
+            <div id="fixed_nav">
+                <div id="nav_logo">
+                    <a href="index.html"><img src="image/home_icon.png" alt="Xbox Logo"></a>
+                </div>
+                <div id="nav_dropdown_items">
+                    <div class="dropdown">
+                        <button class="drop_button">Browse</button>
+                        <div class="dropdown_list">
+                            <a href="games.html">Games</a>
+                            <a href="games_pass.html">Games Pass</a>
+                            <a href="console.html">Consoles</a>
+                            <a href="accessories.html">Accessories</a>
+                            <a href="gear_shop.html">Gear Shop</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="drop_button">Community</button>
+                        <div class="dropdown_list">
+                            <a href="community.html">Xbox Community</a>
+                            <a href="developers.html">Our Developers</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="drop_button">Support</button>
+                        <div class="dropdown_list">
+                            <a href="contact_us.html">Contact Us</a>
+                            <a href="about_us.html">About Us</a>
+                            <a href="support.html">Support Center</a>
+                            <a href="feedback.html">Feedback Form</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="drop_button">My Xbox</button>
+                        <div class="dropdown_list">
+                            <a href="profile.html">Profile</a>
+                            <a href="library.html">Library</a>
+                        </div>
+                    </div>
+                    <div id="cart_nav">
+                        <a href="cart.html"><img class="icon_size" src="image/cart.png" alt="Cart Icon"><span></span></a>
+                    </div>
+                    <div>
+                        <a href="profile.html"><img class="icon_size" src="image/profile_icon.png" alt="Profile Icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            /*Nav bar jscript*/
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("nav");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+    </nav>
+    <main>
+        <section class="accessories_details">
+            <div id="blank" style="padding-top: 10%"></div>
+            <div class = "main-wrapper">
+                <div class = "container">
+                    <div class = "product-div">
+                        <div class = "product-div-left">
+                            <div class = "img-container">
+                                <img src = "image/midnight1.jpeg" alt = "watch">
+                            </div>
+                            <div class = "hover-container">
+                                <div><img src = "image/midnight1.jpeg"></div>
+                                <div><img src = "image/midnight2.jpeg"></div>
+                                <div><img src = "image/midnight3.jpeg"></div>
+                                <div><img src = "image/midnight4.jpeg"></div>
+                                <div><img src = "image/midnight5.jpeg"></div>
+                            </div>
+                        </div>
+                        <div class = "product-div-right">
+                            <span class = "product-name">Xbox Wireless Controller – Midnight Forces II Special Edition</span>
+                            <span class = "product-price">MYR 296.20</span>
+                            <div class = "product-rating">
+                                <img src = "image/4.5 rating.png" style="width: 20%;">
+                                <span>(213 ratings)</span>
+                            </div>
+                            <p class = "product-description"><b>[ Blue camouflage pattern | Textured grip | Button mapping | Bluetooth® technology ]</b></br>
+                            </br><b>Own the battlefield with the Xbox Wireless Controller</b> - 
+                            Midnight Forces II Special Edition featuring a blue camouflage pattern and textured grip for enhanced comfort. Enjoy custom button mapping and plug in any compatible headset with the 3.5mm stereo headset jack, and with Bluetooth technology, play your favorite games on Windows PCs, laptops, and mobile devices.                        </p>
+                            <div class = "btn-groups">
+                                <button type = "button" class = "add-cart-btn" onclick="addToCart(43)"><i class = "fas fa-shopping-cart"></i>add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src = "productdetails.js"></script>
+            <script src="products.js"></script>
+            <script src="cart.js"></script>
+        </section>
+        <footer>
+            <div>
+                <div id="follow_container">
+                    <ul>
+                        <li>Follow Xbox</li>
+                        <li><a target="_blank" href="https://www.instagram.com/xbox/"><img class="icon_size" src="image/instagram.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://twitter.com/xbox"><img class="icon_size" src="image/twitter.png" alt=""></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/xbox"><img class="icon_size" src="image/facebook.png" alt=""></a></li>
+                    </ul>
+                    <hr class="green_hr">
+                </div>
+                <div id="flex_footer_container">
+                    <div>
+                        <h4>Browse</h4> <hr>
+                        <p><a href="games.html">Xbox Games</a></p>
+                        <p><a href="consoles.html">Xbox Consoles</a></p>
+                        <p><a href="game_pass.html">Xbox Game Pass</a></p>
+                        <p><a href="accessories.html">Xbox Accessories</a></p>
+                        <p><a href="gear_shop.html">Xbox Gear Shop</a></p>
+                    </div>
+                    <div>
+                        <h4>Resources</h4> <hr>
+                        <p><a href="community.html">Xbox Community</a></p>
+                        <p><a href="developers.html">Our Developers</a></p>
+                    </div>
+                    <div>
+                        <h4>Reach Us</h4> <hr>
+                        <p><a href="contact_us.html">Contact Us</a></p>
+                        <p><a href="about_us.html">About Us</a></p>
+                        <p><a href="support.html">Support Center (FAQ)</a></p>
+                        <p><a href="feedback.html">Feedback Form</a></p>
+                    </div>
+                    <div>
+                        <h4>Brought to you by</h4> <hr>
+                        <p>RDS1 Group 2 Students in collab with</p>
+                        <p>the Xbox Community</p>
+                        <a href="index.html"><img src="image/home_icon.png" alt="TARUC"></a>
+                    </div>
+                </div>
+                <div id="copyright_footer">
+                    <p>&copy; 2021 Web Dev BAIT1023 Group 2</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>

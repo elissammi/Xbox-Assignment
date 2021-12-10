@@ -1,0 +1,71 @@
+.popout{
+    position: relative;
+    width: 90%;
+}
+
+.popoutimg {
+    display: inline;
+    width: 90%;
+}
+
+.popoutoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.popoutoverlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.popoutoverlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.popoutoverlay:hover {
+    opacity: 1;
+}
+
+.popoutoverlay:hover > * {
+    transform: translateY(0);
+}
+
+.popouttitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.popoutdescription {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.gameclub{
+    margin-top: 5%;
+    margin-left: 8%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.accessories_details img{
+    max-width:100%;
+}    
+
+.gameclubpic{
+    flex-basis:40%;
+}
+
+
