@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+.background {
+  background-image: url("image/halo.jpg");
+  background-size: cover;
+  background-position: 30% 70%;
+  height: 190vh;
+  font: 900 37rem "";
+  line-height: 150vh;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.background::before {
+  content: "";
+  background-size: cover;
+  background-image: inherit;
+  background-position: 30% 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -99;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+header > div > h1 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 200;
+}
+
+main hr {
+  line-height: 3em;
+}
+
+.mission h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#aim {
+  display: block;
+  font-size: x-large;
+  text-align: center;
+  margin: 0 30pt;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div#about {
+  position: relative;
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+#about img {
+  margin: 0 auto;
+  opacity: 0.9;
+  left: 10%;
+}
+
+#about h1 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-weight: 800;
+  color: white;
+}
+
+#about p {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  font-size: 130%;
+  color: white;
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main > h1 {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 600px)) minmax(
+      1em,
+      1fr
+    );
+  grid-template-rows: 100px auto;
+  margin-top: 0;
+  padding: 21em 0em;
+  grid-gap: 2em;
+  align-items: center;
+}
+
+.from-right {
+  grid-column: 3 / 4;
+  transform: translateX(50%);
+}
+
+.from-left {
+  grid-column: 2 / 3;
+  transform: translateX(-50%);
+}
+
+#beginning {
+  background-color: #eee;
+  padding-top: 100px;
+}
+
+#beginning > img {
+  position: relative;
+  left: 11%;
+  height: 320%;
+  top: 200%;
+  width: 100%;
+}
+
+#beginning > div {
+  position: relative;
+  right: 15%;
+}
+
+.info {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 250%;
+}
+
+.grid-container p {
+  font-size: 120%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#progress img {
+  height: 450%;
+  position: relative;
+  right: 15%;
+}
+
+#progress {
+  background-color: #e7e7e6;
+  color: black;
+}
+
+#progress > div {
+  margin-top: 30%;
+  padding-bottom: 30%;
+  position: relative;
+  left: 15%;
+}
+#future {
+  background-color: white;
+}
+#future > div {
+  position: relative;
+  bottom: 60%;
+  right: 1%;
+}
+
+#future img {
+  height: 450%;
+  position: relative;
+  left: 1%;
+}
+
+.xboxStory {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.xboxStory h3 {
+  font-size: 24pt;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.xboxStory p {
+  display: inline;
+  color: #7ec435;
+  font-size: 27pt;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button {
+  margin: 50px auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #7ec435;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(201, 200, 200);
+  position: relative;
+  left: 45%;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(136, 135, 135);
+  transform: translateY(4px);
+}
+
+.from-left {
+  grid-column: 2 / 3;
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 3 / 4;
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
