@@ -1,0 +1,1177 @@
+#index_contents{
+    padding-top: 85px;
+}
+#index_img{
+    width: 100%;
+    height: 48%;
+}
+.white_hr{
+    border: white solid;
+    width: 15%;
+    margin-bottom: 15px;
+}
+.pink_hr{
+    border: solid #d219ad;
+    width: 50%;
+}
+.dark_green_button{
+    text-decoration: none;
+    color: #097e09;
+}
+.dark_green_button:hover{
+    text-decoration: underline;
+}
+.grey_plain_headings {
+    background-color: #1d1d1d;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.grey_plain_headings h2{
+    letter-spacing: 10px;
+}
+.grey_plain_headings p{
+    color: #7ec435;
+}
+.green_button{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    background-color: #7ec435;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 25px 10px 25px;
+    margin-top: 15px;
+    margin-left: 75px;
+    border-radius: 30px;
+}
+.green_button:hover{
+    color: white;
+}
+.add_cart_btn{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    background-color: #7ec435;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 25px 10px 25px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+.add_cart_btn:hover{
+    color: white;
+}
+/* Browse Section*/
+.browse_sect{
+    display: flex;
+    margin: 0px;
+    background-color: #1d1d1d;
+    padding-bottom: 50px;
+}
+.browse_sect h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.browse_sect img{
+    width: 270px;
+    height: 430px;
+    border-radius: 25px;
+}
+.browse_container{
+    padding: 25px;
+    margin: auto;
+    box-shadow: 2px 5px 10px 10px #d219ad;
+}
+/*Index Slideshow*/
+.grey_brick_headings{
+    text-align: center;
+    letter-spacing: 10px;
+    color: white;
+    background-image: url(image/brick_background.jpg);
+    margin: 0px;
+    padding: 15px;
+    font-size: 20px;
+}
+#slideshow_sect{
+    background-image: url(image/brick_background.jpg);
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+.slider{
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px #d219ad;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 3s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #7ec435;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: #7ec435;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+/* make the slide auto */
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+    margin-left: 160px;
+}
+.navigation-auto div{
+    border: 2px solid #7ec435;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~.navigation-auto .auto-btn1{
+    background-color: #7ec435;
+}
+#radio2:checked ~.navigation-auto .auto-btn2{
+    background-color: #7ec435;
+}
+#radio3:checked ~.navigation-auto .auto-btn3{
+    background-color: #7ec435;
+}
+#radio4:checked ~.navigation-auto .auto-btn4{
+    background-color: #7ec435;
+}
+/*Featured Section */
+#featured_sect{
+    background-color: #1d1d1d;
+    padding-bottom: 60px;
+    display: flex;
+}
+#featured_sect div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#featured_sect img{
+    height: 460px;
+    width: 780px;
+    margin-left: 5%;
+    display: block;
+    box-shadow: 2px 5px 10px 10px #d219ad;
+}
+#gear_caption{
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white;
+    font-size: 20px;
+}
+/*Xbox Console Page*/
+#console_header h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 15px;
+    color: #187218;
+}
+#console_header{
+    padding-top: 80px;
+    background-color: #dfdfdf;
+    padding-bottom: 15px;
+}
+#console_header hr{
+    border: solid #187218;
+    width: 50%;
+}
+#console_caption p{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+#console_caption img{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+#console_category{
+    display: flex;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #e6e6e6;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+#console_category div{
+    margin: auto;
+    padding: auto;
+}
+#console_category h2{
+    color: #187218;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Choose console*/
+#console_choose_sect{
+    background-color: #e6e6e6;
+    padding-bottom: 100px;
+}
+#console_choose_sect table{
+    background-color: #313131;
+    color: white;
+    margin: auto;
+    padding: 50px 250px 50px 250px;
+    font-size: 20px;
+    box-shadow: 2px 5px 10px 10px #d219ad;
+}
+#console_choose_sect a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+#console_choose_sect a:hover{
+    text-decoration: underline;
+    color: #13da13;
+}
+#console_info_sect{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(image/brick_background.jpg);
+    color: white;
+}
+#console_info_sect h1{
+    font-size: 50px;
+}
+#console_info_sect p{
+    font-size: 17px;
+}
+#console_info1{
+    background-color: #313131;
+    margin-top: 0px;
+    margin-right: 50px;
+    padding: 2px 40px 15px 40px;
+    box-shadow: 2px 5px 10px 10px #111111;
+    border-radius: 30px;
+}
+#console_info1 ol li{
+    font-size: larger;
+    font-weight: bolder;
+    color: #13da13;
+}
+#console_info2 img{
+    width: 100%;
+    box-shadow: 2px 5px 10px 10px #d219ad;
+}
+
+/*console page browse */
+#console_extra_browse{
+    background-color: #e6e6e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#console_extra_browse table{
+    margin: auto;
+    padding: auto;
+    font-size: 20px;     
+}
+#console_extra_browse table td{
+    padding: 145px;
+    color: white;
+}
+#console_extra_browse table h2{
+    text-shadow: 4px 4px black;
+}
+#console_extra_browse table p{
+    text-shadow: 2px 2px black;
+}
+#console_extra_browse table a{
+    text-decoration: none;
+    color: #97ff29;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+}
+#console_extra_browse table a:hover{
+    text-decoration: underline;
+}
+#console_td1{
+    background-image: url(image/console_games.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#console_td2{
+    background-image: url(image/console_controller.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#console_td3{
+    background-image: url(image/console_merch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#console_td4{
+    background-image: url(image/console_support.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*Compare Console Page */
+#compare_console_header h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    letter-spacing: 5px;
+}
+#compare_console_header{
+    padding-top: 80px;
+    background-color: #dfdfdf;
+    padding-bottom: 15px;
+}
+#compare_console_sect{
+    margin: 120px;
+}
+#compare_console_sect table{
+    margin: auto;
+    font-size: large;
+    background-image: linear-gradient(to left, #dfdfdf,#7a5c73 , #dfdfdf);
+    box-shadow: 2px 5px 10px 10px #111111;
+}
+#compare_console_sect th{
+    padding: 30px;
+}
+#compare_console_sect table tr td{
+    text-align: center;
+    padding: 25px;
+}
+#compare_console_sect thead{
+    font-size: 35px;
+    border: none;
+}
+#compare_console_sect tfoot{
+    background-image: linear-gradient(to left, #dfdfdf,#313131 , #7a5c73);
+    color: white;
+}
+#compare_console_sect td{
+    border: solid black;
+}
+#compare_console_sect h4{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+.compare_images{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.compare_icons{
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+#gear_black_sect{
+    display: flex;
+    color: white;
+    background-color: black;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30%;
+}
+#gear_black_sect a{
+    color: #97ff29;
+    text-decoration: none;
+}
+#gear_black_sect a:hover{
+    text-decoration: underline;
+}
+/* Support Page */
+#support_header{
+    background-image: url(image/support_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+#support_header h1{
+    padding-top: 18%;
+    padding-left: 10%;
+    color: white;
+}
+#support_browse h2{
+    text-align: center;
+    font-size: 30px;
+    color: #187218;
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#support_browse table a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    border: white solid 10px;
+}
+#support_browse table a:hover{
+    text-decoration: underline;
+    color: #97ff29;
+}
+#support_browse table{
+    margin: auto;
+    padding: auto;
+    font-size: 20px;
+}
+#support_browse table td{
+    padding: 60px;
+}
+#support_td1{
+    background-image: url(image/support_img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#support_td2{
+    background-image: url(image/support_img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#support_td3{
+    background-image: url(image/support_img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.support_feedback{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin-top: 50px;
+}
+.support_button{
+    background-color: #097e09;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.support_button:hover{
+    color: black;
+    background-color: white;
+}
+.support_contents{
+    padding-top: 70px;
+    background-color: #dfdfdf;
+}
+.support_contents h1{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+}
+.support_contents h3{
+    font-weight: bolder;
+    color: #187218;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.support_contents details{
+    background-color: #b3b1b1;
+    padding: 15px;
+    margin: 25px;
+}
+.support_contents summary{
+    padding: 25px;
+}
+.support_contents details img{
+    margin: auto;
+    display: block;
+    box-shadow: 2px 5px 10px 10px #111111;
+}
+.support_contents table{
+    margin: auto;
+}
+.support_contents th{
+    font-size: 20px;
+}
+.support_contents td{
+    padding: 20px;
+    margin: 50px;
+}
+.support_contact{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-image: linear-gradient(to left, #dfdfdf, #3b7a3b, #dfdfdf, );
+    box-shadow: 2px 5px 10px 10px #111111;
+}
+.support_main_contents{
+    margin-left: 12%;
+    margin-right: 12%;
+    padding: 5%;
+}
+/* Gear Shop Page */
+#gear_shop_header h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 15px;
+    color: black;
+    text-shadow: 4px 4px #d219ad;
+}
+#gear_shop_header{
+    padding-top: 80px;
+    background-color: #dfdfdf;
+    padding-bottom: 15px;
+}
+#gear_shop_banner{
+    background-image: url(image/gear_header_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+#gear_shop_banner h1{
+    padding-top: 18%;
+    padding-left: 10%;
+    color: white;
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#gear_shop_banner button{
+    margin-left: 10%;
+    padding: 18px;
+    background-color: #d219ad;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 5px 5px black;
+}
+#gear_shop_banner button:hover{
+    background-color: #187218;
+}
+.title_box {
+    position: relative;
+    width: 100%;
+}
+.title_box img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.title_overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #187218;
+    border-radius: 25px;
+}
+.overlay_text{
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-decoration: underline;
+}
+.title_box:hover .title_overlay{
+    opacity: 1;
+}
+.featured_container{
+    padding: 20px;
+    margin: auto;
+}
+.featured_container h2{
+    background-color: #187218;
+}
+#featured_div{
+    display: flex;
+}
+#featured_div h3{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0;
+    text-shadow: 3px 3px black;
+}
+.title_box:hover #merch_overlay1{
+    opacity: 1;
+}
+.title_box:hover #merch_overlay2{
+    opacity: 1;
+}
+.title_box:hover #merch_overlay3{
+    opacity: 1;
+}
+.title_box:hover #merch_overlay4{
+    opacity: 1;
+}
+#merch_overlay1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/featured_merch1_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#merch_overlay2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/featured_merch2_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#merch_overlay3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/featured_merch3_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#merch_overlay4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/featured_merch4_4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#halo_video_gear{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#video_captions{
+    bottom: 0;
+    background-image: url(image/video_wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-shadow: 3px 3px black;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#shop_halo_btn{
+    padding: 18px;
+    background-color: #d219ad;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 5px 5px black;
+}
+#shop_halo_btn:hover{
+    background-color: #187218;
+}
+#vid_pause_btn{
+    width: 200px;
+    margin-left: 88%;
+    margin-top: 0;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #187218;
+    color: #fff;
+    cursor: pointer;
+}
+#vid_pause_btn:hover{
+    background: black;
+    color: #97ff29;
+}
+/*Battlefield Merch Page*/
+.merch_banner img{
+    margin-top: 80;
+    width: 100%;
+}
+.title_box:hover #bfmerch_overlay1{
+    opacity: 1;
+}
+.title_box:hover #bfmerch_overlay2{
+    opacity: 1;
+}
+.title_box:hover #bfmerch_overlay3{
+    opacity: 1;
+}
+#bfmerch_overlay1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/bf_merch1_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#bfmerch_overlay2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/bf_merch3_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#bfmerch_overlay3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/bf_merch2_1.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+/*Halo Merch Page */
+.title_box:hover #halo_merch_overlay1{
+    opacity: 1;
+}
+.title_box:hover #halo_merch_overlay2{
+    opacity: 1;
+}
+.title_box:hover #halo_merch_overlay3{
+    opacity: 1;
+}
+.title_box:hover #halo_merch_overlay4{
+    opacity: 1;
+}
+#halo_merch_overlay1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/halo_merch1_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#halo_merch_overlay2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/halo_merch2_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#halo_merch_overlay3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/halo_merch3_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#halo_merch_overlay4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/halo_merch4_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#halo_follow_banner{
+    background-image: url(image/halo_follow_banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-size: 25px;
+}
+#halo_follow_banner button{
+    background-color: #045c74;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+#halo_follow_banner button:hover{
+    text-decoration: underline;
+}
+/*Wasteland Merch Page */
+.title_box:hover #wasteland_merch_overlay1{
+    opacity: 1;
+}
+.title_box:hover #wasteland_merch_overlay2{
+    opacity: 1;
+}
+.title_box:hover #wasteland_merch_overlay3{
+    opacity: 1;
+}
+#wasteland_merch_overlay1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/wasteland_merch1_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#wasteland_merch_overlay2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/wasteland_merch2_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#wasteland_merch_overlay3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/wasteland_merch3_1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+/*Xbox Merch Page */
+.title_box:hover #xbox_merch_overlay1{
+    opacity: 1;
+}
+.title_box:hover #xbox_merch_overlay2{
+    opacity: 1;
+}
+.title_box:hover #xbox_merch_overlay3{
+    opacity: 1;
+}
+.title_box:hover #xbox_merch_overlay4{
+    opacity: 1;
+}
+#xbox_merch_overlay1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/xbox_merch1_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#xbox_merch_overlay2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/xbox_merch2_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#xbox_merch_overlay3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/xbox_merch3_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#xbox_merch_overlay4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/xbox_merch4_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+#xbox_follow_banner{
+    background-image: url(image/xbox_follow_banner.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-size: 25px;
+}
+#xbox_follow_banner button{
+    background-color: #97ff29;
+    color: #295229;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+#xbox_follow_banner button:hover{
+    text-decoration: underline;
+}
+/*Feedback Page */
+#feedback_form{
+    color: white;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    background-image: url(image/console_support.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feedback_form h1{
+    color: white;
+    text-shadow: 5px 5px #4c974c;
+    font-size: 50px;
+}
+#feedback_form hr{
+    margin-right: 30%;
+    margin-bottom: 4%;
+}
+form{
+    padding-left: 150px;
+    font-size: 20px;
+}
+#name, #email{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+textarea{
+    margin-top: 10px;
+    font-size: 15px;
+}
+#feedback{
+    height: 20%;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+#satisfaction_div{
+    margin-bottom: 25px;
+}
+input[type="radio"]{
+    margin: 15px;
+    margin-top: 20px;
+    transform: scale(2);
+}
+input[type="radio"]:checked:after{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #187218;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+#issue_type{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#submit{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3b7a3b;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#submit:hover{
+    background-color: #295229;
+    text-decoration: underline;
+}
