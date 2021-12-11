@@ -60,7 +60,7 @@ html{
     color: #fcfcfc;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
   }
   button4, button::after {
     width: 150px;
@@ -515,9 +515,9 @@ th, td {
   @media screen and (max-width: 1200px) {
     .video-1 {
       position: absolute;
-      top: 440px;
-      left: -50px;
-      width: 60%;
+      top: 400px;
+      left: 50px;
+      width: 30%;
     }
   }
   
@@ -554,5 +554,14 @@ th, td {
   @media screen and (max-width: 1200px) {
     .main-1 {
       padding-bottom: 2000px;
+    }
+  }
+
+
+  @media screen and (max-width: 1536px) {
+    .plans-1 {
+      position: absolute;
+      top: 1700px;
+      left: 100px;
     }
   }

@@ -326,7 +326,7 @@ body {
     padding: 5px;
 }
 .card:hover h2 small { color: #fff }
-.card:hover p { margin-top: 300px }
+.card:hover p1 { margin-top: 300px }
 .card_circle {
     background-color: #7ec435;
     background-size: cover;
@@ -348,7 +348,7 @@ h2 {
     width: 100%;
     z-index: 9999;
 }
-p {
+p1 {
     color: rgba(0,0,0,.6);
     font-family: 'Raleway', sans-serif;
     font-size: 100%;
@@ -415,7 +415,7 @@ p {
     padding: 5px;
 }
 .card2:hover h2 small { color: #fff }
-.card2:hover p { margin-top: 300px }
+.card2:hover p1 { margin-top: 300px }
 .card2_circle {
     background-color: #7ec435;
     background-size: cover;
@@ -437,7 +437,7 @@ h2 {
     width: 100%;
     z-index: 9999;
 }
-p {
+p1 {
     color: rgba(0,0,0,.6);
     font-family: 'Raleway', sans-serif;
     font-size: 100%;
@@ -492,7 +492,7 @@ p {
   padding: 5px;
 }
 .card3:hover h2 small { color: #fff }
-.card3:hover p { margin-top: 300px }
+.card3:hover p1 { margin-top: 300px }
 .card3_circle {
   background-color: #7ec435;
   background-size: cover;
@@ -514,7 +514,7 @@ h2 {
   width: 100%;
   z-index: 9999;
 }
-p {
+p1 {
   color: rgba(0,0,0,.6);
   font-family: 'Raleway', sans-serif;
   font-size: 100%;
