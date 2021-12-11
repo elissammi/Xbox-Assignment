@@ -728,3 +728,95 @@
   }
 
 }
+
+@media screen and (max-width: 1200px) {
+  .achievement_profile {
+    width:49%;
+  }
+  .friends_profile {
+    width: 20%;
+  }
+
+  .progression_bar > img {
+    width: 30%;
+  
+  }
+
+  .game_achivement > img {
+    width: 40%;
+  }
+
+  .bar {
+    width: 15%;
+  }
+  .barf1{
+    width: 15%;
+  }
+  .barf2{
+    width: 15%;
+  }
+  .barf3{
+    width: 15%;
+  }
+  .barf4{
+    width: 15%;
+  }
+  .barf5{
+    width: 15%;
+  }
+  .barf6{
+    width: 15%;
+  }
+
+
+  .bar_2 {
+    width: 15%;
+  }
+  .bar_2f1{
+    width: 15%;
+  }
+  .bar_2f2{
+    width: 15%;
+  }
+  .bar_2f3{
+    width: 15%;
+  }
+  .bar_2f4{
+    width: 15%;
+  }
+  .bar_2f5{
+    width: 15%;
+  }
+  .bar_2f6{
+    width: 15%;
+  }
+
+  .bar_3 {
+    width: 15%;
+  }
+  .bar_3f1{
+    width: 15%;
+  }
+  .bar_3f2{
+    width: 15%;
+  }
+  .bar_3f3{
+    width: 15%;
+  }
+  .bar_3f4{
+    width: 15%;
+  }
+  .bar_3f5{
+    width: 15%;
+  }
+  .bar_3f6{
+    width: 15%;
+  }
+
+
+
+  .friends_profile {
+    padding-bottom: 38px;
+    
+  }
+}

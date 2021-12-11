@@ -823,3 +823,21 @@ th {
   margin-left: 200px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1200px) {
+  .next {
+    margin-right: 100px;
+  }
+  .prev {
+    padding-left: 100px;
+  }
+
+  .adjust  {
+    width:100%;
+  }
+
+  #ytvideo {
+    width: 160%;
+  }
+
+}
